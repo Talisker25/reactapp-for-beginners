@@ -18,6 +18,7 @@ function Detail(){
     return <div>
         <h1>{movieDetail.title}</h1>
         <img src={movieDetail.large_cover_image} alt={movieDetail.title}/>
+        <p>{movieDetail.summary}</p>
     </div>
 }
 
